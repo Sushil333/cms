@@ -190,8 +190,10 @@ SIMPLE_JWT = {
 }
 
 
-CORS_ALLOWED_ORIGINS = [
-    "http://localhost:8080",
-    "http://127.0.0.1:8000",
-    "https://fast-basin-62210.herokuapp.com"
-]
+# CORS_ALLOWED_ORIGINS = [
+#     "http://localhost:8080",
+#     "http://127.0.0.1:8000",
+#     "https://fast-basin-62210.herokuapp.com"
+# ]
+
+CORS_ALLOW_ALL_ORIGINS = True
